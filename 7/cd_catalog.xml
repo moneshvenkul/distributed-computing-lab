@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <BOOK>
+    <TITLE>Let us C</TITLE>
+    <ARTIST>Yashvant Kanethkar</ARTIST>
+    <COUNTRY>India</COUNTRY>
+    <COMPANY>BPB</COMPANY>
+    <PRICE>273</PRICE>
+    <YEAR>2016</YEAR>
+  </BOOK>
+  <BOOK>
+    <TITLE>Web Technologies</TITLE>
+    <ARTIST>Kogent</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>DreamTech</COMPANY>
+    <PRICE>599</PRICE>
+    <YEAR>2014</YEAR>
+  </BOOK>
+  <BOOK>
+    <TITLE>Compiler Design</TITLE>
+    <ARTIST>Aho Ullman</ARTIST>
+    <COUNTRY>India</COUNTRY>
+    <COMPANY>Narosa</COMPANY>
+    <PRICE>440</PRICE>
+    <YEAR>1995</YEAR>
+  </BOOK>
+  </CATALOG>	

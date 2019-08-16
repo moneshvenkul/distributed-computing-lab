@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+<head>
+<script>
+function myFunction() {
+ var m1 = Number(document.getElementById("m1").value);
+ var m2 = Number(document.getElementById("m2").value);
+ var avg =(m1+m2)/2;
+ document.getElementById("avg").value= avg;
+}
+</script>
+</head>
+
+<title>Student Details</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<div id="student1"><h3>Student Details</h3>
+<form method="POST" action="http://localhost/4/connect.php">
+Rollno <br> <input id="no" name="no"></br></br>
+Name  <br> <input  id="name" name="name"></br></br>
+Mark1 <br> <input  id="m1" name="m1"></br></br>
+Mark2 <br> <input  id="m2" name="m2"></br></br>
+Average <br> <input id="avg" name="avg" onclick="myFunction()">
+</br></br>
+<input type="submit" id="submit" value="Submit">
+<input type="reset" id="reset" value="Reset">
+
+</form>
+</div>
+</body>
+</html>
+
